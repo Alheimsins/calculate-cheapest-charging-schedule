@@ -1,0 +1,27 @@
+{
+  "name": "calculate-cheapest-charging-schedule",
+  "version": "1.0.0",
+  "description": "Simple module for calculating the cheapest charging schedule for your EV",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alheimsins/calculate-cheapest-charging-schedule.git"
+  },
+  "keywords": [],
+  "author": "Geir Gåsodden <geir.gasodden@pythonia.no> (https://github.com/zrrrzzt)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Alheimsins/calculate-cheapest-charging-schedule/issues"
+  },
+  "homepage": "https://github.com/Alheimsins/calculate-cheapest-charging-schedule#readme",
+  "engines": {
+    "node": ">=14.19.1"
+  },
+  "devDependencies": {
+    "ava": "4.2.0",
+    "standard": "17.0.0"
+  }
+}
