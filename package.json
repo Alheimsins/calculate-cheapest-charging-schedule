@@ -3,8 +3,18 @@
   "version": "1.0.0",
   "description": "Simple module for calculating the cheapest charging schedule for your EV",
   "main": "index.js",
+  "type": "module",
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    "lib/",
+    "index.js"
+  ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "standard && ava",
+    "standard-fix": "standard --fix",
+    "refresh": "rm -rf node_modules && rm packjage-lock.json && npm i"
   },
   "repository": {
     "type": "git",
