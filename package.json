@@ -1,5 +1,5 @@
 {
-  "name": "calculate-cheapest-charging-schedule",
+  "name": "@alheimsins/calculate-cheapest-charging-schedule",
   "version": "1.0.0",
   "description": "Simple module for calculating the cheapest charging schedule for your EV",
   "main": "index.js",
