@@ -20,6 +20,56 @@ console.log(calculateCheapestChargingSchedule({ batteryCapacity, batteryCurrentL
 
 ```
 
+## priceArray format
+
+The module expects an array of objects with the following properties as priceArray:
+  
+```JavaScript
+[
+  {
+    "startsAt": "2020-04-24T04:00:00.000+02:00",
+    "total": 0.5
+  },
+  {
+    "startsAt": "2020-04-24T13:00:00.000+02:00",
+    "total": 0.6
+  }
+]
+```
+
+if your priceArray is not in this format you can supply a propertyMap
+
+```JavaScript
+
+import calculateCheapestChargingSchedule from '@alheimsins/calculate-cheapest-charging-schedule'
+
+const batteryCapacity = 38
+const batteryCurrentLevel = 0.75
+const chargingPower = 3.5
+
+const priceArray = [
+  {
+    "starttid": "2020-04-24T04:00:00.000+02:00",
+    "pris": 0.5
+  },
+  {
+    "starttid": "2020-04-24T13:00:00.000+02:00",
+    "pris": 0.6
+  }
+]
+
+const propertyMap = {
+  startsAt: 'starttid',
+  total: 'pris'
+}
+
+console.log(calculateCheapestChargingSchedule({ batteryCapacity, batteryCurrentLevel, chargingPower, priceArray, propertyMap }))
+
+// returns ['2022-04-24T04:00:00.000+02:00', '2022-04-24T13:00:00.000+02:00']
+
+```
+
+
 # License
 
 [MIT](LICENSE)
