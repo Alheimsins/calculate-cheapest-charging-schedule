@@ -14,7 +14,7 @@
   "scripts": {
     "test": "standard && ava",
     "standard-fix": "standard --fix",
-    "refresh": "rm -rf node_modules && rm packjage-lock.json && npm i"
+    "refresh": "rm -rf node_modules && rm package-lock.json && npm i"
   },
   "repository": {
     "type": "git",
