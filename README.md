@@ -69,6 +69,9 @@ console.log(calculateCheapestChargingSchedule({ batteryCapacity, batteryCurrentL
 
 ```
 
+# Related
+
+- [tibber-get-price-info](https://github.com/Alheimsins/tibber-get-price-info) Retrieve price info from tibber for your current subscription
 
 # License
 
