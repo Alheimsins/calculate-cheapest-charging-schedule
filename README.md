@@ -72,6 +72,9 @@ console.log(calculateCheapestChargingSchedule({ batteryCapacity, batteryCurrentL
 # Related
 
 - [tibber-get-price-info](https://github.com/Alheimsins/tibber-get-price-info) Retrieve price info from tibber for your current subscription
+- [zaptec-go-start-stop](https://github.com/Alheimsins/zaptec-go-start-stop) A module for starting and stopping your Zaptec Go EV charger
+- [bmw-is-connected-to-charger](https://github.com/Alheimsins/bmw-is-connected-to-charger) Answers the question: is my BMW connected to a charger?
+- [leaf-connect](https://github.com/Alheimsins/leaf-connect) Node.js client library for the Nissan Leaf API
 
 # License
 
